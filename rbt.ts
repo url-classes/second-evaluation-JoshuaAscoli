@@ -22,7 +22,7 @@ export class Producto {
     }
 
     public imprimir(): string {
-        return "Código: " + this.code + " => Proucto: " + this.name + " => Precio: " + this.price;
+        return "Código: " + this.code + " => Producto: " + this.name + " => Precio: " + this.price;
     }
     
 }
